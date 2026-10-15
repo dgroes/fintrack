@@ -1,0 +1,96 @@
+@import url("https://cdn.jsdelivr.net/npm/@fontsource-variable/geist-mono@5.3.0/index.css");
+
+::selection {
+  background-color: #7c3e5d; /* Color de fondo (p. ej., rosa brillante) */
+  color: #ffffff; /* Color del texto (p. ej., blanco) */
+}
+
+#icon {
+  height: 3rem;
+}
+
+html {
+  background-color: #0e0d0b;
+  color: #d8d3c5;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  padding: 2rem;
+}
+
+body {
+  font-family: "Geist Mono Variable", monospace;
+}
+
+.menu {
+  display: row;
+  justify-content: end;
+  /* background-color: rgb(73, 71, 71); */
+}
+
+
+
+/* Botón NUEVO MOVIMIENTO */
+.button-create {
+  background-color: transparent;
+  padding: 12px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: oklch(79.2% 0.209 151.711);
+  border-color: oklch(79.2% 0.209 151.711);
+  cursor: pointer;
+}
+
+.button-create:is(:hover, :focus) {
+  /* transform: translateY(-2px); */
+  color: #d8d3c5;
+  border-color: oklch(69.644% 0.15565 156.013);
+  background-color: oklch(69.644% 0.15565 156.013);
+}
+
+
+/* Botón: FILTRO DE COLUMNAS */
+.button-filter {
+  background-color: transparent;
+  padding: 12px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: oklch(72.241% 0.15327 72.351);
+  border-color: oklch(72.241% 0.15327 72.351);
+  cursor: pointer;
+}
+
+.button-filter:is(:hover, :focus) {
+  /* transform: translateY(-2px); */
+  color: #d8d3c5;
+  border-color: oklch(54.298% 0.10666 76.904);
+  background-color: oklch(54.298% 0.10666 76.904);
+}
+
+
+/* Botón: APLICAR CAMBIOS */
+.button-acept {
+  background-color: transparent;
+  padding: 12px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: oklch(66.115% 0.15043 244.074);
+  border-color: oklch(66.115% 0.15043 244.074);
+  cursor: pointer;
+}
+
+.button-acept:is(:hover, :focus) {
+  /* transform: translateY(-2px); */
+  color: #d8d3c5;
+  border-color: oklch(58.831% 0.14721 246.289);
+  background-color: oklch(58.831% 0.14721 246.289);
+}
